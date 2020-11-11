@@ -21,6 +21,7 @@ public class Manager {
         addCommand(new Poll());
         addCommand(new UserInfo());
         addCommand(new EightBall());
+        addCommand(new Roast());
     }
 
     private void addCommand(Command c) {
