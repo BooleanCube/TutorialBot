@@ -1,7 +1,7 @@
 # TutorialBot
 This is the code for my TutorialBot.
 
-Hi! I am BooleanCube, a youtuber and game/bot developer!
+Hi! I am BooleanCube, a youtuber, game/bot developer and a competitive programmer!
 
 To follow my TutorialBot series head over to: https://www.youtube.com/playlist?list=PLu-RmOYgdRXDYtbfKNvsBcT4CXLrgusSf
 
