@@ -16,8 +16,9 @@ public class Roast implements Command {
     public void run(List<String> args, GuildMessageReceivedEvent event) {
         if(args.isEmpty()) {
             try {
-                URL api = new URL("https://api.snowflakedev.xyz/roast");
+                URL api = new URL("https://api.snowflakedev.cf/api/roast");
                 HttpsURLConnection con = (HttpsURLConnection) api.openConnection();
+                con.setRequestProperty("Authorization", Secrets.APIKEY);
                 con.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36");
                 BufferedReader bf = new BufferedReader(new InputStreamReader(con.getInputStream()));
                 String input = bf.readLine();
